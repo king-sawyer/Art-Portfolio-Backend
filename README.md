@@ -1,31 +1,13 @@
-# Express Boilerplate!
+# Art Portfolio Backend
 
-This is a boilerplate project used for starting new projects!
+This is a backend Express application.
 
-## Set up
+This project is used in conjunction with the front end repository, [Art Portfolio Frontend](https://github.com/king-sawyer/Art-Portfolio-Frontend)
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
-
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
-
-## Scripts
-
-Start the application `npm start`
-
-Start nodemon for the application `npm run dev`
-
-Run the tests `npm test`
-
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+## Technology
+- This project is a fully RESTFUL API that utelizes full CRUD operations for modifying both the artists products, and their art.
+- This project uses JWT authentication to ensure an encrypted log in system which allows the artist to log in and modify the site themself.
+- This project was created using PSQL, Express, and deployed through Heroku.
 
 
-## Readme
 
-Once you deploy this project, please update this Readme by modifying it so that it is relevant to your project. 
