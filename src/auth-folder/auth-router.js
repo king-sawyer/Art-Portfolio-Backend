@@ -1,5 +1,4 @@
 const express = require("express");
-// const xss = require("xss");
 const AuthService = require("./auth-service");
 const authRouter = express.Router();
 const { requireAuth } = require("../middleware/jwt-auth");
